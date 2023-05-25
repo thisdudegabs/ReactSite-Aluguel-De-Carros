@@ -1,0 +1,101 @@
+.footer {
+  background: #4b0082;
+  padding: 50px;
+  padding-bottom: 15px;
+}
+
+.footer_logo i {
+  color: #fff;
+  font-weight: 400;
+}
+
+.footer_logo span {
+  color: #fff;
+  font-weight: 500;
+}
+
+.footer_logo-content {
+  color: rgba(255, 255, 255, 0.715);
+  margin-top: 15px;
+  line-height: 30px;
+}
+
+.quick_link {
+  border: none !important;
+  background: transparent !important;
+}
+
+.quick_link a {
+  color: rgba(255, 255, 255, 0.715);
+  text-decoration: none;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+.quick_link a:hover {
+  color: #ffd700;
+}
+
+.footer_link-title {
+  color: #fff;
+}
+
+.office_info {
+  color: rgba(255, 255, 255, 0.715);
+  font-weight: 300;
+}
+
+.newsletters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border: 1px solid #7c8a972f;
+  border-radius: 50px;
+  background: #9370db;
+}
+
+.newsletters input {
+  background: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.newsletters span i {
+  color: #fff;
+}
+
+.footer_bottom {
+  border-top: 1px solid #7c8a972f;
+}
+
+.icon-spacing {
+  margin-right: 0.5rem; /* Adapte o valor conforme necessário */
+}
+
+@media only screen and (max-width: 768px) {
+  .footer_logo-content {
+    font-size: 0.8rem;
+  }
+
+  .quick_link,
+  .office_info {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+  }
+
+  .footer_link-title {
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+
+  .footer_bottom p {
+    font-size: 0.7rem;
+  }
+
+  .newsletters span {
+    margin-left: -20px;
+  }
+}
