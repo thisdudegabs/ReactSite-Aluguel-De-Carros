@@ -7,17 +7,19 @@ import CarListing from "../pages/CarListing";
 import BlogDetails from "../pages/BlogDetails";
 import CarDetails from "../pages/CarDetails";
 import NotFound from "../pages/NotFound";
+import Contact from "../pages/Contact";
 
 const Routers = () => {
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/home" />} />
-      <Route path="home" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="blogs" element={<Blog />} />
-      <Route path="cars" element={<CarListing />} />
-      <Route path="blogs/:slug" element={<BlogDetails />} />
-      <Route path="cars/:slug" element={<CarDetails />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/blogs" element={<Blog />} />
+      <Route path="/cars" element={<CarListing />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/blogs/:slug" element={<BlogDetails />} />
+      <Route path="/cars/:slug" element={<CarDetails />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
