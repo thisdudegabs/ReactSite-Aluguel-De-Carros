@@ -15,7 +15,7 @@ const CarItem = (props) => {
 
         <div className="car_item-content mt-4">
           <h4 className="section_title text-center">{carName}</h4>
-          <h6 className="rent_price text-center mt-">R${price}.00 /Dia</h6>
+          <h6 className="rent_price text-center mt-2">R${price}.00 /Dia</h6>
 
           <div className="car_item-info d-flex align-items-center justify-content-between mb-4">
             <span className="d-flex align-items-center gap-1 ">
