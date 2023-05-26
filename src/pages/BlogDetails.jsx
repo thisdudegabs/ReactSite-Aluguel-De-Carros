@@ -125,7 +125,7 @@ const BlogDetails = () => {
 
             <Col lg="4" md="4">
               <div className="recent_post mb-4">
-                <h5 className="fw-bold">Posts Recentes.</h5>
+                <h5 className="fw-bold">Posts Recentes</h5>
               </div>
 
               {blogData.map((item) => (

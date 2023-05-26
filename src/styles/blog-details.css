@@ -44,3 +44,39 @@
   color: #4b0082;
   font-weight: 500;
 }
+
+@media only screen and (max-width: 768px) {
+  .recent_posts {
+    margin-top: 30px;
+  }
+
+  .leave_comment-form input,
+  .leave_comment-form textarea {
+    font-size: 0.7rem;
+  }
+
+  .comment_btn {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    margin-top: 0px !important;
+  }
+
+  .leave_comment-form h4 {
+    font-size: 1.2rem;
+  }
+
+  .single_comment img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .comment_content p {
+    font-style: 0.8rem;
+    line-height: 1.4rem;
+  }
+
+  .blog_details p {
+    font-style: 0.8rem;
+    line-height: 1.4rem;
+  }
+}
