@@ -17,9 +17,9 @@ const BlogDetails = () => {
 
   const blog = blogData.find((blog) => blog.title === slug);
 
-  //*useEffect(() => {
-  //  window.scrollTo(0, 0);
-  //}, [blog]);*//
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [blog]);
 
   return (
     <Helmet title={blog.title}>
@@ -27,9 +27,9 @@ const BlogDetails = () => {
         <Container>
           <Row>
             <Col lg="8" md="8">
-              <div className="blog_datails">
+              <div className="blog__details">
                 <img src={blog.imgUrl} alt="" className="w-100" />
-                <h2 className="section_title mt-4">{blog.title}</h2>
+                <h2 className="section__title mt-4">{blog.title}</h2>
 
                 <div className="blog_publisher d-flex align-items-center gap-4 mb-4">
                   <span className="blog_author ">
@@ -53,7 +53,7 @@ const BlogDetails = () => {
               </div>
 
               <div className="comment_list mt-5">
-                <h4 className="mb-5">3 Comentários</h4>
+                <h4 className="mb-5">{blog.numberComents}</h4>
 
                 <div className="single_comment d-flex gap-3">
                   <img src={commentImg1} alt="" />
@@ -133,7 +133,7 @@ const BlogDetails = () => {
                   <div className="recent_blog-item d-flex gap-3">
                     <img src={item.imgUrl} alt="" className="w-25 rounded-2" />
                     <h6>
-                      <Link to={`/blogs/${item.title}`}>{blog.title}</Link>
+                      <Link to={`/blogs/${item.title}`}>{item.title}</Link>
                     </h6>
                   </div>
                 </div>

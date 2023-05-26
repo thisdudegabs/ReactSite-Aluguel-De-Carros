@@ -15,6 +15,7 @@ const blogData = [
     quote: "O trânsito de São Paulo: intenso e desafiador.",
     description2:
       "É fundamental ressaltar a importância de manter-se informado sobre as condições do trânsito em São Paulo. Os aplicativos de trânsito em tempo real oferecem atualizações precisas sobre congestionamentos, acidentes e obras nas vias, permitindo que os motoristas se planejem com antecedência e evitem trajetos problemáticos. Além disso, essas ferramentas também fornecem opções de rotas alternativas, que podem ser mais rápidas e eficientes. Ao utilizar os aplicativos, os clientes da empresa de aluguel de carros podem tomar decisões mais informadas e desfrutar de uma experiência de condução mais tranquila e fluida em meio ao intenso tráfego de São Paulo.",
+    numberComents: "3 comentários",
     coment1:
       "Acabei de ler o blog sobre como enfrentar o trânsito de São Paulo e tenho que dizer que foi muito útil! Como cliente da empresa de aluguel de carros, sempre fico preocupado com o tráfego intenso da cidade. As dicas de planejamento antecipado, uso de aplicativos de trânsito e consideração do transporte público são realmente valiosas. Estou impressionado com o nível de serviço e comprometimento dessa empresa em fornecer informações relevantes aos seus clientes. Agora me sinto mais preparado e confiante para enfrentar os desafios das ruas de São Paulo. Muito obrigado por compartilhar essas dicas úteis!",
     coment2:
@@ -25,7 +26,7 @@ const blogData = [
 
   {
     id: 2,
-    title: "O que fazer quando acaba a bateria?",
+    title: "O que fazer quando acaba a bateria!",
     author: "Lais",
     date: "13, Maio, 2023",
     time: "13:00",
@@ -36,16 +37,14 @@ const blogData = [
       " Continuando, é essencial lembrar que a manutenção regular da bateria do seu carro é fundamental para evitar contratempos como a descarga completa da bateria. Certifique-se de realizar revisões periódicas e seguir as recomendações do fabricante quanto à troca da bateria, quando necessário. Além disso, ao estacionar o veículo por longos períodos, especialmente durante viagens ou férias, é recomendado desconectar a bateria para evitar o seu esgotamento.",
     quote:
       "Para lidar com uma bateria de carro descarregada, verifique as conexões e procure assistência técnica especializada para recarregá-la adequadamente.",
+    numberComents: "3 comentários",
+
     coment1:
       "Essas dicas são realmente úteis! Recentemente, enfrentei um problema com a bateria do meu carro e fiquei sem saber o que fazer. Felizmente, encontrei este post e segui as orientações. Verificar os faróis e acessórios elétricos foi um passo simples, mas que fez toda a diferença. Acabei conseguindo ajuda de um amigo que me emprestou sua bateria. Aprendi que é sempre importante estar preparada para essas situações. Obrigada pelas informações!",
     coment2:
       "Como motorista, já passei por alguns momentos desesperadores quando a bateria do meu carro ficou baixa. Essas medidas de precaução são essenciais para evitar problemas ainda maiores. O uso correto dos cabos de ligação pode ser um verdadeiro salvador de vidas. No entanto, é importante lembrar que nem todos se sentem confortáveis em fazer isso sozinhos, e é aí que um serviço de assistência técnica automotiva se torna fundamental. Sempre é bom ter conhecimento dessas opções. Parabéns pelo post informativo!",
     coment3:
       "A bateria do carro é uma daquelas coisas que normalmente só pensamos quando ela nos deixa na mão. Essas dicas são valiosas para evitar contratempos indesejados. Verificar se os faróis e acessórios estão desligados é uma medida simples, mas que muitas vezes esquecemos. Eu mesma já precisei recorrer a um serviço de assistência técnica quando minha bateria acabou. Agora, após ler este post, estou mais consciente da importância de manter a manutenção regular. Obrigada!",
-    coment4:
-      "Eu sempre fui meio perdido quando o assunto era bateria de carro. Mas depois de ler esse post, sinto que tenho um guia confiável para seguir. A orientação sobre o uso correto dos cabos de ligação é especialmente útil. Nunca tive que fazer isso antes, mas agora me sinto mais preparado caso precise ajudar alguém ou até mesmo a mim mesmo. Agradeço por compartilhar essas informações!",
-    coment5:
-      "Adorei encontrar esse post! Como uma pessoa que não entende muito sobre carros, fico aliviada por saber que existem medidas simples que posso tomar se a bateria do meu carro estiver baixa. Verificar os faróis e acessórios elétricos é algo que posso fazer facilmente. Se tudo mais falhar, chamar um serviço de assistência técnica automotiva parece ser a melhor opção para mim. A manutenção regular da bateria é um ponto que vou lembrar de colocar na minha agenda. Obrigada pelo guia!",
   },
 
   {
@@ -61,20 +60,14 @@ const blogData = [
       "Além das vantagens sociais e emocionais, viajar com amigos também traz benefícios práticos. Ao compartilhar os custos da viagem, é possível economizar em diversas áreas, como hospedagem, transporte e alimentação. Isso permite que o grupo aproveite experiências que talvez não fossem acessíveis individualmente. Desde desfrutar de refeições em restaurantes locais até participar de atividades de lazer e explorar a cultura local, a viagem em grupo possibilita dividir os gastos e ampliar as opções disponíveis. ",
     quote:
       "Viajar com amigos é embarcar em uma jornada repleta de risadas, aventuras e conexões mais profundas.",
+    numberComents: "3 comentários",
+
     coment1:
       "Viajar com amigos é simplesmente incrível! A energia positiva e a diversão são contagiantes. Já tive a oportunidade de explorar novos destinos com meus amigos e posso dizer que essas viagens foram inesquecíveis. Além de criarmos memórias compartilhadas, também descobrimos mais sobre nós mesmos e fortalecemos nossa amizade. Planejar o itinerário juntos é um desafio divertido, e encontrar acomodações que atendam às nossas necessidades é parte da aventura. Recomendo a todos experimentarem viajar com seus amigos!",
     coment2:
       "Verdade seja dita, viajar com amigos é uma das melhores experiências que podemos ter. É como se criássemos um mundo só nosso, cheio de risadas, brincadeiras e momentos de descontração. Além disso, quando estamos com amigos, descobrimos interesses comuns que nem imaginávamos ter. Não importa se é um destino próximo ou um lugar distante, a viagem com amigos sempre será especial. Agradeço por compartilhar essas palavras, que me lembraram das aventuras incríveis que vivi com meus amigos!",
     coment3:
       "Ao ler esse post, fiquei nostálgica lembrando das viagens que fiz com meus amigos. É incrível como esses momentos fortalecem os laços de amizade. Desde as longas conversas durante o planejamento até as noites divertidas nos quartos de hotel, cada detalhe se torna parte de uma memória duradoura. Viajar com amigos é uma oportunidade de conhecer melhor uns aos outros e criar laços que resistem ao tempo. Agradeço por compartilhar essas palavras que trazem à tona tantos momentos felizes!",
-    coment4:
-      "Viajar com amigos é uma das melhores formas de criar memórias inesquecíveis. Já tive a sorte de explorar novos destinos com pessoas especiais ao meu lado, e posso dizer que essas viagens foram repletas de aventuras e risadas. O planejamento do itinerário é apenas o começo de uma jornada cheia de surpresas. Compartilhar quartos de hotel ou alugar uma casa nos permite desfrutar de momentos de descontração e criar uma atmosfera acolhedora. Recomendo a todos experimentarem essa experiência única!",
-    coment5:
-      "Viajar com amigos é algo que todos deveriam experimentar pelo menos uma vez na vida. Essas viagens proporcionam uma conexão especial entre as pessoas, onde podemos compartilhar momentos de alegria, desafios e descobertas. É incrível como a camaradagem e a aventura se entrelaçam, criando uma atmosfera única. Planejar o itinerário juntos nos permite explorar os interesses de cada um e encontrar atividades que agradem a todos. Agradeço por compartilhar essas palavras inspiradoras!",
-    coment6:
-      "Que post maravilhoso! Concordo plenamente que viajar com amigos é uma experiência enriquecedora. Tive a oportunidade de embarcar em algumas aventuras com meus amigos e posso dizer que essas viagens nos aproximaram ainda mais. Desde os momentos de planejamento até a execução das atividades, cada etapa foi repleta de diversão e descontração. Além disso, explorar novos destinos juntos nos permitiu descobrir interesses comuns que nem imaginávamos ter. Recomendo a todos que reservem um tempo para viajar com seus amigos!",
-    coment7:
-      "Viajar com amigos é uma das melhores formas de criar memórias que duram para sempre. Cada destino visitado se torna um capítulo em nossa história compartilhada. A camaradagem que surge durante essas viagens é incrível, e as risadas e os momentos de descontração ficam gravados em nossa mente. Sem dúvida, a viagem com amigos é uma oportunidade única de fortalecer os laços de amizade e criar lembranças duradouras. Parabéns pelo post inspirador!",
   },
 ];
 
