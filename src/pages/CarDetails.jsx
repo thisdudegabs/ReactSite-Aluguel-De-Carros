@@ -37,15 +37,17 @@ const CarDetails = () => {
                     R${singleCarItem.price},00 /Dia
                   </h6>
 
-                  <span className="d-flex align-items-center gap-2">
-                    <span style={{ color: "#f9a826" }}>
+                  <span className=" d-flex align-items-center gap-2">
+                    <span style={{ color: "#f9a826" }} className="star_rating">
                       <i class="ri-star-fill"></i>
                       <i class="ri-star-fill"></i>
                       <i class="ri-star-fill"></i>
                       <i class="ri-star-fill"></i>
                       <i class="ri-star-fill"></i>
                     </span>
-                    ({singleCarItem.rating} Avaliações)
+                    <div className="rating_number">
+                      ({singleCarItem.rating} Avaliações)
+                    </div>
                   </span>
                 </div>
 

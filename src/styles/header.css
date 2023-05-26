@@ -99,7 +99,7 @@
   color: #fff;
 }
 
-/* =================== estilização da navegação principal */
+/* =================== estilização da navegação principal ===================*/
 
 .main_navbar {
   padding: 15px 0px;
@@ -138,14 +138,14 @@
   display: flex;
   align-items: center;
   border-radius: 50px;
-  background: #9370db;
+  background: #fff;
 }
 
 .search_box input {
   background: transparent;
   border: none;
   outline: none;
-  color: #fff;
+  color: #4b0082;
   cursor: pointer;
 }
 
@@ -154,7 +154,7 @@
 }
 
 .search_box span i {
-  color: rgba(255, 255, 255, 0.555);
+  color: rgba(61, 0, 117, 0.555);
   cursor: pointer;
 }
 

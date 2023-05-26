@@ -56,9 +56,10 @@
   }
 
   .comment_btn {
-    padding: 5px 10px;
-    font-size: 0.8rem;
+    padding: 5px 10px !important;
+    font-size: 0.8rem !important;
     margin-top: 0px !important;
+    margin-bottom: 30px;
   }
 
   .leave_comment-form h4 {

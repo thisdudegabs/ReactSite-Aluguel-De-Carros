@@ -21,7 +21,7 @@ const CarListing = () => {
     }
   };
 
-  const carrosOrdenados = ordenarCarros(carData, filtro); // Array de carros ordenados com base no filtro
+  const carrosOrdenados = ordenarCarros(carData, filtro);
 
   return (
     <Helmet title="Cars">
