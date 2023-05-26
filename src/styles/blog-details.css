@@ -1,0 +1,46 @@
+.blog_publisher span i {
+  color: #ffd700;
+}
+
+.blockquote {
+  line-height: 35px;
+}
+
+.single_comment img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #4b0082;
+  object-fit: cover;
+}
+
+.reply i {
+  color: #ffd700;
+}
+
+.reply {
+  color: #4b0082;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.leave_comment-form input,
+.leave_comment-form textarea {
+  border: 1px solid rgba(0, 12, 107, 0.118);
+}
+
+.leave_comment-form textarea:focus {
+  outline: none;
+}
+
+.comment_btn {
+  background: #4b0082 !important;
+  color: #fff !important;
+}
+
+.recent_blog-item h6 a {
+  text-decoration: none;
+  color: #4b0082;
+  font-weight: 500;
+}
